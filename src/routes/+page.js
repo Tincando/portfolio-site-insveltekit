@@ -3,7 +3,7 @@ import { gql } from 'graphql-request';
 import { client } from '$lib/graphql-client';
 
 
-  export const load = async () => {
+  export async function load (data) {
     
 
     const query = gql`
