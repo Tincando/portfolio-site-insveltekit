@@ -1,30 +1,25 @@
 
 import { gql } from 'graphql-request';
 import { client } from '$lib/graphql-client';
+import ProjectCard from '$lib/components/project-card.svelte'
+import { authorsQuery, projectsQuery } from '$lib/graphql-queries'
 
 
   export async function load (data) {
     
+    
 
-    const query = gql`
-      query GetProjects {
-        projects {
-          name
-          slug
-          description
-          demo
-          sourceCode
-          image {
-            url
-          }
-        }
-      }
-    `
+    const [authorReq, projectsReq] = await Promise.all([
+        client.request(authorsQuery),
+        client.request(projectsQuery),
+      ])
 
-    const { projects } = await client.request(query)
+    const { authors } = authorReq
+    const { projects } = projectsReq
 
     return {
         projects,
+        authors,
     }
   }
 
