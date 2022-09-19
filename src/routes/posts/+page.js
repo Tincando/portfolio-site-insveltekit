@@ -5,6 +5,6 @@ export const load = async (data) => {
     const { posts } = await client.request(postsQuery)
 
     return {
-      posts
+      posts,
     }
   }

@@ -2,7 +2,7 @@
  import { marked } from 'marked'
     export let data
 
-    const { title, date, tags, content, coverImage } = post
+   $: posts = data.posts;  
   </script>
 
 <svelte:head>
