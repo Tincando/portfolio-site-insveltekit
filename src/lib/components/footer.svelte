@@ -21,7 +21,7 @@
         <a href="https://youtube.com">
           <YouTubeIcon />
         </a> 
-        <a href="https://facebook.com/id=1275116623">
+        <a href="https://www.facebook.com/profile.php?id=1275116623">
           <FacebookIcon />
         </a>
       </div>
