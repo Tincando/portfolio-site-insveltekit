@@ -7,7 +7,8 @@ Learning Svelte by building a portfolio and blog site.
 Using Svelte with GraphCMS (Hygraph)
 
     - Landing page with projects listed
-    - Blog - Theme switch
+    - Blog
+    - Theme switch
     - Continuous Deployment with Vercel
     - Build integrations to publish and build the site on content changes
 
@@ -22,4 +23,4 @@ Using Svelte with GraphCMS (Hygraph)
 
 ## Finished
 
-To check out site click this [Link](https://portfolio-site-insveltekit-4ey8tomdz-tincando.vercel.app)
+To check out site click this [Link](https://portfolio-site-insveltekit.vercel.app/)
