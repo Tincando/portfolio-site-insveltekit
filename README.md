@@ -1,38 +1,20 @@
-# create-svelte
+# Building a portfolio site in SvelteKit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A project of learning sveltekit by building a portfolio and blog.
 
-## Creating a project
+## Things I build
 
-If you're seeing this, you've probably already done this step. Congrats!
+Using Svelte with GraphCMS (Hygraph) - Landing page with projects listed - Blog - Theme switch - Continuous Deployment with Vercel - Build integrations to publish and build the site on content changes
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## The stack i used
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+    - SvelteKit
+    - Tailwind + daisyUI
+    - Tailwind CSS Typography
+    - Marked
+    - GraphCMS
+    - graphql-request
 
-## Developing
+## Finished
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To check out site click this [Link](https://portfolio-site-insveltekit-4ey8tomdz-tincando.vercel.app)
