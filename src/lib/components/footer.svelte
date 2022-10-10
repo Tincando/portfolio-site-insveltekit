@@ -15,13 +15,13 @@
     </div> 
     <div>
       <div class="grid grid-flow-col gap-4">
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/">
           <TwitterIcon />
         </a> 
         <a href="https://youtube.com">
           <YouTubeIcon />
         </a> 
-        <a href="https://facebook.com">
+        <a href="https://facebook.com/id=1275116623">
           <FacebookIcon />
         </a>
       </div>
