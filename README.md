@@ -1,10 +1,15 @@
 # Building a portfolio site in SvelteKit
 
-A project of learning sveltekit by building a portfolio and blog.
+Learning Svelte by building a portfolio and blog site.
 
 ## Things I build
 
-Using Svelte with GraphCMS (Hygraph) - Landing page with projects listed - Blog - Theme switch - Continuous Deployment with Vercel - Build integrations to publish and build the site on content changes
+Using Svelte with GraphCMS (Hygraph)
+
+    - Landing page with projects listed
+    - Blog - Theme switch
+    - Continuous Deployment with Vercel
+    - Build integrations to publish and build the site on content changes
 
 ## The stack i used
 
